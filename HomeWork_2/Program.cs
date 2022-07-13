@@ -11,7 +11,7 @@ Console.Write("Введите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int result = Number(number);
 Console.WriteLine($"Заданное число {number}, вторая цифра {result}");
-
+*/
 
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
@@ -27,20 +27,21 @@ int Number(int num)
 
 int check;
 int number;
+int result;
 Console.Write("Введите целое число: ");
 check = Convert.ToInt32(Console.ReadLine());
 if (check < 0) number = check * (-1);
 else number = check;
 if (number < 100) Console.WriteLine($"Заданное число {check}, не имеет третьей цифры");
 else{
-    int result = Number(number);
+    result = Number(number);
     Console.WriteLine($"Заданное число {check}, третья цифра {result}");
 }
-*/
+
 
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
-
+/*
 bool DayWeek(int number)
 {
     if (number == 6 || number == 7) return true;
@@ -58,3 +59,4 @@ else
     if (weekend == true) Console.Write($"День недели номер {day} выходной");
     else Console.Write($"День недели номер {day} рабочий");
 }
+*/
