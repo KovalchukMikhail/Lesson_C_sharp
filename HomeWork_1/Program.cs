@@ -39,7 +39,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if (number % 2 == 0) Console.WriteLine("число " + number + " четное");
 else Console.WriteLine("число " + number + " нечетное");
-*/
+
 
 //Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
@@ -60,4 +60,4 @@ else
         current = current + 2;
     }
 }
-
+*/

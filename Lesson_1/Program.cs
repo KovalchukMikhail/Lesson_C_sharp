@@ -23,7 +23,7 @@ while(current <= num)
     Console.Write(current + " ");
     current++;
 }
-*/
+
 
 string exit;
 int numberDay = 0;
@@ -50,5 +50,5 @@ if(numberDay == 5) Console.WriteLine("Friday");
 if(numberDay == 6) Console.WriteLine("Saturday");
 if(numberDay == 7) Console.WriteLine("Sunday");
 
-
+*/
 

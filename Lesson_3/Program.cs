@@ -94,4 +94,4 @@ double check;
 Console.Write("Введите число: ");
 check = Convert.ToDouble(Console.ReadLine());
 if (check < 0) check = check * (-1);
-Numbers(number);
+Numbers(check);
