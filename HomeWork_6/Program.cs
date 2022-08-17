@@ -1,5 +1,5 @@
 ﻿//  Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
-/*
+
 int CountPositive()
 {
     int result = 0;
@@ -23,12 +23,12 @@ int CountPositive()
 
 int countPositiveNum = CountPositive();
 Console.WriteLine($"Вы ввели {countPositiveNum} чисел(а) больше 0");
-*/
+
 
 
 
 // Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
-
+/*
 double [] FindXAndY(double k1, double b1, double k2, double b2)
 {
     double y = (b2 - k2*b1/k1) / (1 - k2/k1);
@@ -51,3 +51,4 @@ double b2 = Convert.ToDouble(Console.ReadLine());
 
 double [] result = FindXAndY(k1, b1, k2, b2);
 Console.WriteLine($"Точка пересечения двух прямых имеет координаты y = {result[0]}; x = {result[1]}");
+*/
