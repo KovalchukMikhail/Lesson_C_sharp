@@ -1,4 +1,6 @@
-﻿void Show2dArray(int[,] array)
+﻿
+/*
+void Show2dArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -25,7 +27,7 @@ int[,] CreateRandom2dArray(int rows, int columns, int minValue, int maxValue)
     return newArray;
 
 }
-
+*/
 // Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
 /*
 int[,] SortArray(int[,] array)
@@ -166,7 +168,7 @@ Show2dArray(multArray);
 */
 
 //  Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
-/*
+
 int[,,] Create3dArray(int deeps, int rows, int columns, int minValue, int maxValue)
 {
     bool changeNum = false;
@@ -235,7 +237,7 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int[,,] array = Create3dArray(m, n, k, min, max);
 Show3dArray(array);
-*/
+
 
 // Заполните спирально массив 4 на 4.
 /*
